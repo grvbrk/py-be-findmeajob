@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aisearch"
+version = "0.1.0"
+description = ""
+authors = ["grvbrk <gouravbarikofficial@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.3"
+load-dotenv = "^0.1.0"
+praw = "^7.7.1"
+langchain-google-genai = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
